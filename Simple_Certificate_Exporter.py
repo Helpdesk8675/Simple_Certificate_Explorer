@@ -1,3 +1,10 @@
+import os
+import csv
+import subprocess
+import tkinter as tk
+from tkinter import ttk
+from tkinter import filedialog, messagebox
+
 # Simple_certificate_exporter.py
 #
 # This script provides a utility to extract certificate details from a specified folder
@@ -19,14 +26,6 @@
 
 # Author: helpdesk8675
 # License: MIT License
-
-
-import os
-import csv
-import subprocess
-import tkinter as tk
-from tkinter import ttk
-from tkinter import filedialog, messagebox
 
 class CertificateProcessorGUI:
     def __init__(self, root):
