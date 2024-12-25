@@ -1,3 +1,26 @@
+# Simple_certificate_exporter.py
+#
+# This script provides a utility to extract certificate details from a specified folder
+# and export them to a CSV file. It supports both PEM and DER encoded certificates
+# and can process files recursively within the folder.
+
+# Features:
+# - Recursive search for certificate files.
+# - Support for PEM and DER encoding formats.
+# - Export details like Subject, Issuer, Serial Number, Thumbprint, and validity dates.
+
+# Usage:
+# - Run the script directly to launch a GUI for selecting input and output folders.
+# - Alternatively, integrate the functions into other scripts for customized workflows.
+
+# Dependencies:
+# - cryptography >= 3.0
+# - tkinter (standard Python library)
+
+# Author: helpdesk8675
+# License: MIT License
+
+
 import os
 import csv
 import subprocess
