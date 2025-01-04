@@ -13,7 +13,7 @@ from dataclasses import dataclass
 #
 # This script provides a utility to extract certificate details from a specified folder
 # and export them to a CSV file. It supports both PEM and DER encoded certificates
-# and can process files recursively within the folder.
+# and can process files within the folder.
 
 # Features:
 # - Recursive search for certificate files.
